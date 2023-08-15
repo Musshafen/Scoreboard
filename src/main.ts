@@ -24,3 +24,15 @@ addButtonIcons.forEach((icon) => {
     }
   });
 });
+
+subtractButtonIcons.forEach((icon) => {
+  icon.addEventListener('click', () => {
+    if (icon.closest('.team1')) {
+      team1Score -= 1;
+      team1ScoreElement.textContent = team1Score.toString();
+    } else if (icon.closest('.team2')) {
+      team2Score -= 1;
+      team2ScoreElement.textContent = team2Score.toString();
+    }
+  });
+});
