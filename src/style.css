@@ -18,6 +18,12 @@ h1 {
   font-family: Monospace;
   margin: 1rem 0 3rem 0;
 }
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
 
 main {
   display: flex;
