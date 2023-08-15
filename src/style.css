@@ -80,9 +80,15 @@ fieldset i.add {
 fieldset i.subtract {
   color: #f64545;
 }
-input[type="text"] {
+input[type='text'] {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 3px;
   font-size: 1rem;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
